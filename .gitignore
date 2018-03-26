@@ -1,0 +1,21 @@
+
+### Scala template:
+
+*.class
+*.log
+
+/target/
+/project/target/
+.idea/checkstyle-idea.xml
+.idea/compiler.xml
+.idea/hydra.xml
+.idea/inspectionProfiles/
+.idea/junitgenerator-prj-settings.xml
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/
+.idea/sbt.xml
+.idea/scala_compiler.xml
+.idea/workspace.xml
+src/test/
