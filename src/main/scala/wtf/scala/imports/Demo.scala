@@ -6,7 +6,7 @@ import java.util.{ArrayList, HashMap, TreeMap}
 /**
   * Импорт java-классов
   */
-class Demo {
+object Demo {
   val x = new ArrayList[String]()
   val y = new HashMap[String, TreeMap[String, String]]()
   val z = new StringWriter()
