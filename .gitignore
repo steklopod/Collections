@@ -20,3 +20,5 @@
 .idea/workspace.xml
 src/test/
 .idea/sonarlint/
+.idea/
+/.idea/
