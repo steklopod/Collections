@@ -7,7 +7,7 @@ import java.lang.Float._
 object Demo1 {
   val x = valueOf("  45 ")
 
-  def y (d:Double) = isInf(_) || isNaN(_)
+//  def y (d:Double) = isInf(_) || isNaN(_)
 
   val z = floatToIntBits(0.1f)
 

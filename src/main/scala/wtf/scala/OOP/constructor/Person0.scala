@@ -15,7 +15,7 @@ class Person0(var name: String, var age: Int) {
   }
 }
 
-// Companion object как хранитель констант
+// Companion object - С…СЂР°РЅРµРЅРёРµ РєРѕРЅСЃС‚Р°РЅС‚
 object Person0{
   val DEFAULT_NAME = "Dima"
   val DEFAULT_AGE = 29

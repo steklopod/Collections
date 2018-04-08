@@ -1,14 +1,14 @@
 package wtf.scala.OOP.object_example
 
 import wtf.scala.OOP.object_example.IntLab.max
-//Роль объекта №1 - утилитарные функции и константы:
+//Р РѕР»СЊ РѕР±СЉРµРєС‚Р° в„–1 - СѓС‚РёР»РёС‚Р°СЂРЅС‹Рµ С„СѓРЅРєС†РёРё Рё РєРѕРЅСЃС‚Р°РЅС‚С‹:
 object Demo {
   def main(args: Array[String]): Unit = {
     println(max(7, 3))
   }
 }
 
-//Хранение констант и функций:
+//РҐСЂР°РЅРµРЅРёРµ РєРѕРЅСЃС‚Р°РЅС‚ Рё С„СѓРЅРєС†РёР№:
 object IntLab {
   val MAX_INT = java.lang.Integer.MAX_VALUE
 
