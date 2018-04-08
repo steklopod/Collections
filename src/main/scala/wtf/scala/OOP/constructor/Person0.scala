@@ -20,3 +20,10 @@ object Person0{
   val DEFAULT_NAME = "Dima"
   val DEFAULT_AGE = 29
 }
+
+object DemoPer extends App{
+  println(new Person0("Dima").age)
+
+  //  TODO - вывести
+  println(new Person0("Dima").toString)
+}

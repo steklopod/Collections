@@ -13,11 +13,11 @@ object ForExample extends App {
   }
 
 //  ANOTHER VARIANT:
-  println("ANOTHER VARIANT: \n")
+  println("Другой способ: \n")
   (0 until 10).foreach(a => println(a))
 
   // 1. YIELD:
-  println("YIELD [capitalize First letter]: \n")
+  println("YIELD [увеличиваем первую букву каждого слова]: \n")
   val capNames = for( e <- names) yield  e.capitalize
 
   capNames.foreach(println(_))
