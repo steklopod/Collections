@@ -4,7 +4,7 @@ import java.io.StringWriter
 import java.util.{ArrayList, HashMap, TreeMap}
 
 /**
-  * Импорт java-классов
+  *
   */
 object Demo {
   val x = new ArrayList[String]()

@@ -6,9 +6,7 @@ class Demo1 {
   def propertyDef = 29
 }
 
-
-
 object Demo1Test extends App{
-  val age = new Demo1.property
+  val age = new Demo1().property
   println(age)
 }
