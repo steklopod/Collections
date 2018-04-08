@@ -1,4 +1,4 @@
-package wtf.scala.imports
+package wtf.scala.OOP.imports
 
 class Person(val name: String, val age: Int)
 

@@ -1,4 +1,4 @@
-package wtf.scala.constructor
+package wtf.scala.OOP.constructor
 
 class Person0(var name: String, var age: Int) {
 

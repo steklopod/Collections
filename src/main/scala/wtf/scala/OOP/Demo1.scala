@@ -1,5 +1,4 @@
-package wtf.scala
-
+package wtf.scala.OOP
 
 class Demo1 {
   val property = 29

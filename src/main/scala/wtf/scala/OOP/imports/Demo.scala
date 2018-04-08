@@ -1,4 +1,4 @@
-package wtf.scala.imports
+package wtf.scala.OOP.imports
 
 import java.io.StringWriter
 import java.util.{ArrayList, HashMap, TreeMap}
