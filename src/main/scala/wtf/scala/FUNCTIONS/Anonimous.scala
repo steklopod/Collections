@@ -6,9 +6,7 @@ class Anonimous {
 
 object Function1Example2 extends App{
 
-
 }
-
 
 object Function1Example extends App {
 //  (x: Int) => x + 1
