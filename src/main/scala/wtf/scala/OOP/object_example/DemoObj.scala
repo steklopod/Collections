@@ -2,7 +2,7 @@ package wtf.scala.OOP.object_example
 
 import wtf.scala.OOP.object_example.IntLab.max
 //Роль объекта №1 - утилитарные функции и константы:
-object Demo {
+object DemoObj {
   def main(args: Array[String]): Unit = {
     println(max(7, 3))
   }
