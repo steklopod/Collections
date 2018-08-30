@@ -4,6 +4,8 @@
 Последовательность является разновидностью [Iterable](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Iterable.md), 
 которая имеет длину и элементы которой имеют фиксированные позиции индекса, начиная с 0.
 
+![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/seq.jpg "Seq")
+
 Операции с последовательностями, приведенные в таблице ниже, относятся к следующим категориям:
 
 * **Индексирование и длина**: `apply`, `isDefinedAt`, `length`, `index` и `lengthCompare`. Для `Seq` применяемая 
@@ -128,4 +130,3 @@
 `buf.clone`               | Новый буфер с теми же элементами, что и `buf`.
 
 
-![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/collections.png "collections")
