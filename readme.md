@@ -67,4 +67,6 @@ _Пример. Вот одна строка кода, которая демон�
 
 * [Типаж Iterable](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Iterable.md)
 
+* [Типаж Seq](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Seq.md)
+
 _Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
