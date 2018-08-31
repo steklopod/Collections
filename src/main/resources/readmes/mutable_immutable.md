@@ -62,6 +62,7 @@
 
 На следующем рисунке показаны все коллекции в пакете `scala.collection`. Это все абстрактные классы или
  типажи высокого уровня, которые обычно имеют изменяемые, а также неизменяемые реализации.
+ >иерархия типажей `scala.collection`
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/collections.png "collections")
 
 
@@ -122,6 +123,8 @@
 
 Далее мы рассмотрим эти классы один за другим.
 
-_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
+_Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
+
+* [=> Типаж Traversable](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Traversable.md)
 
 [<= содержание](https://github.com/steklopod/Collections/blob/master/readme.md)

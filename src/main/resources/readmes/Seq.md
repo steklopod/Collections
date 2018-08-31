@@ -110,7 +110,7 @@
 
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/seq2.png "Seq2")
 
->Операции в в классе Buffer
+>Операции в классе Buffer
 
 Метод                     | Что делает          
 ------------------------- | --------------------
@@ -131,4 +131,8 @@
 **Клонирование**          |
 `buf.clone`               | Новый буффер с теми же элементами, что и `buf`.
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
 
+* [=> Типаж Set](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Set.md)
+
+[<= содержание](https://github.com/steklopod/Collections/blob/master/readme.md)

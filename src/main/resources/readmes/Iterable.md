@@ -77,7 +77,8 @@
 Например, `Set('a', 'b', 'c')('b')` дает `true`, тогда как `Set()('a')` дает `false`. 
 Наконец, для отображений (Map) `apply` - это выбор. Например, `Map('a'->1, 'b'->10, 'c'->100)('b')` дает `10`.
 
+_Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
 
-_Если этот проект окажется полезным тебе - нажми на кнопочку `star` в правом верхнем углу._
+* [=> Типаж Seq](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Seq.md)
 
 [<= содержание](https://github.com/steklopod/Collections/blob/master/readme.md)
