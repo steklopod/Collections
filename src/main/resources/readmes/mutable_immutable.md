@@ -4,19 +4,19 @@
 обновлена ​​или расширена. Это означает, что вы можете изменять, добавлять или удалять элементы коллекции в качестве 
 побочного эффекта. _Неизменяемые коллекции_, напротив, никогда не меняются. У вас все еще есть операции, 
 имитирующие дополнения, удаления или обновления, но эти операции в каждом случае **возвращают новую коллекцию** и 
-**оставляют старую коллекцию неизменной**.
+оставляют старую коллекцию неизменной.
 
 Все классы коллекций находятся в пакете **`scala.collection`**. Большинство классов коллекций, требуемых клиентским кодом,
  существуют в трех вариантах, которые расположены в пакетах `scala.collection`, `scala.collection.immutable` и 
  `scala.collection.mutable` соответственно. Каждый вариант имеет разные характеристики в отношении изменчивости.
 
-* Коллекция в пакете `scala.collection.immutable` гарантируется неизменной для всех. Такая коллекция никогда не изменится 
-после ее создания. Поэтому вы можете положиться на тот факт, что одновременное обращение к одному и тому же набору 
+* Коллекции в пакете `scala.collection.immutable` гарантируют иммутабельность. Такие коллекции никогда не изменятся 
+после их создания. Поэтому вы можете положиться на тот факт, что одновременное обращение к одному и тому же набору 
 значений в разные моменты времени всегда даст коллекцию с теми же элементами.
 
-* Коллекция в пакете `scala.collection.mutable` имеет некоторые операции, которые изменяют коллекцию на месте. 
+* Коллекции в пакете `scala.collection.mutable` имеют операции, которые изменяют коллекцию. 
 
-* Коллекция в пакете `scala.collection` может быть изменяемой или неизменяемой. Например, `collection.IndexedSeq[T]` 
+* Коллекции в пакете `scala.collection` могут быть изменяемыми или неизменяемыми. Например, `collection.IndexedSeq[T]` 
 является суперклассом как `collection.immutable.IndexedSeq[T]`, так и `collection.mutable.IndexedSeq[T]`.
  Как правило, корневые коллекции в пакете `scala.collection` определяют тот же интерфейс, что и неизменные коллекции, 
  и изменяемые коллекции в пакете `scala.collection.mutable` обычно добавляют некоторые операции модификации побочных 
@@ -57,21 +57,19 @@
   List                              // потому что `scala._` is always automatically imported
 ```
 
-Другие типы с псевдонимом - это `Traversable`, `Iterable`, `Seq`, `IndexedSeq`, `Iterator`, `Stream`, `Vector`, 
+Типажи коллекций в Скала - это `Traversable`, `Iterable`, `Seq`, `IndexedSeq`, `Iterator`, `Stream`, `Vector`, 
 `StringBuilder` и `Range`.
 
-На следующем рисунке показаны все коллекции в пакете `scala.collection`. Это все абстрактные классы или
+На следующей схеме показаны все коллекции в пакете `scala.collection`. Это все абстрактные классы или
  типажи высокого уровня, которые обычно имеют изменяемые, а также неизменяемые реализации.
  >иерархия типажей `scala.collection`
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/collections.png "collections")
 
 
-На следующем рисунке показаны все коллекции в пакете `scala.collection.immutable`.
->imutable
+>Неизменяемын коллекции `scala.collection.immutable`
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/collections.immutable.png "collections.immutable")
 
-На следующем рисунке показаны все коллекции в пакете `scala.collection.mutable`.
->mutable
+>Изменяемын коллекции  `scala.collection.mutable`
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/collections.mutable.png "collections.mutable")
 
 ### Обзор API коллекций

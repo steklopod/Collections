@@ -18,8 +18,8 @@
 ```
 
 Довольно много подклассов `Iterable` переопределяют эту стандартную реализацию `foreach` в `Iterable`, потому что они 
-могут обеспечить более эффективную реализацию. Помните, что `foreach` является основой для реализации всех операций в 
-`Traversable`, поэтому его производительность имеет значение.
+могут обеспечить более эффективную реализацию. Помните, что **`foreach` является основой для реализации всех операций в 
+`Traversable`**, поэтому его производительность имеет значение.
 
 В `Iterable` существует еще два метода, возвращающих итераторы: `grouped` и `sliding`. Однако эти итераторы не возвращают
  отдельные элементы, а целые подпоследовательности элементов исходной коллекции. Максимальный размер этих 
@@ -29,13 +29,15 @@
  
  ```scala
     scala> val xs = List(1, 2, 3, 4, 5)
-      xs: List[Int] = List(1, 2, 3, 4, 5)
+    xs: List[Int] = List(1, 2, 3, 4, 5)
+      
     scala> val git = xs grouped 3
       git: Iterator[List[Int]] = non-empty iterator
     scala> git.next()
       res3: List[Int] = List(1, 2, 3)
     scala> git.next()
       res4: List[Int] = List(4, 5)
+      
     scala> val sit = xs sliding 3
       sit: Iterator[List[Int]] = non-empty iterator
     scala> sit.next()
@@ -46,7 +48,7 @@
       res7: List[Int] = List(3, 4, 5)
  ```
  
- `trait Iterable` также добавляет некоторые другие методы в `Traversable`, которые могут быть эффективно реализованы, 
+`Iterable` также добавляет некоторые другие методы в `Traversable`, которые могут быть эффективно реализованы, 
  только если доступен итератор. Они приведены в следующей таблице.
  
 Метод                     | Что делает          
@@ -66,11 +68,6 @@
 **Сравнения**       | 
 `xs sameElements ys`| Проверка того, содержат ли xs и ys одни и те же элементы в одном порядке
 
-В иерархии наследования `ниже Iterable` вы найдете три типажа: [Seq](https://www.scala-lang.org/api/current/scala/collection/Seq.html),
- [Set](https://www.scala-lang.org/api/current/scala/collection/Set.html) и 
- [Map](https://www.scala-lang.org/api/current/scala/collection/Map.html). `Seq и Map` реализуют свойство 
-[PartialFunction](https://www.scala-lang.org/api/current/scala/PartialFunction.html) с помощью методов `apply` и `isDefinedAt`, каждый из которых выполняется по-разному. `Set` получает 
-свой `apply-метод` применения из [GenSetLike](https://www.scala-lang.org/api/current/scala/collection/GenSetLike.html).
 
 Для последовательностей (Seq) `apply` - это позиционная индексация, где элементы всегда нумеруются от `0`. 
 То есть `Seq(1, 2, 3)(1)` дает `2`. Для множеств(Set)  `apply` - это тест принадлежности. 

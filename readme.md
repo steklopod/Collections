@@ -71,7 +71,7 @@ _Пример. Вот одна строка кода, которая демон�
 
 * [Типаж Set](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Set.md)
 
-* [=> Типаж Map](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Map.md)
+* [Типаж Map](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Map.md)
 
 
 _Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
