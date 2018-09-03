@@ -1,4 +1,4 @@
-## Списки (Lists)
+## Потоки (Streams)
 
 [Поток](http://www.scala-lang.org/api/2.12.2/scala/collection/immutable/Stream.html) похож на список, за исключением того, 
 что его **элементы вычисляются лениво**. Из-за этого поток может быть бесконечно длинным. Вычисляются только запрошенные 
@@ -39,6 +39,6 @@
 
 _Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
 
-[=> Потоки (Vectors)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Vectors.md)
+[=> Векторы (Vectors)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Vectors.md)
 
 [<= содержание](https://github.com/steklopod/Collections/blob/master/readme.md)
