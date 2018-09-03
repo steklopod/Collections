@@ -67,7 +67,7 @@
 
 _Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
 
-[=> Стеки  и очереди](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Stacks_and_Queues.md)
+[=> Стеки и очереди](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Stacks_and_Queues.md)
 
 [<= содержание](https://github.com/steklopod/Collections/blob/master/readme.md)
 

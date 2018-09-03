@@ -33,6 +33,10 @@ Scala предоставляет множество конкретных неи�
 
 * [Векторы (Vectors)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Vectors.md)
 
+* [Стеки и очереди](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Stacks_and_Queues.md)
+
+* [Диапозоны (Ranges)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Ranges.md)
+
 
 ### Характеристики коллеций скала:
 
