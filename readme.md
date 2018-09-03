@@ -29,6 +29,8 @@ Scala предоставляет множество конкретных неи�
 
 * [Списки (Lists)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Lists.md)
 
+* [Потоки (Streams)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Streams.md)
+
 
 ### Характеристики коллеций скала:
 
