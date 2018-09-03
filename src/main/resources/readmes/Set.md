@@ -12,11 +12,11 @@
  также могут использоваться в качестве тестовых функций, возвращающих `true` для элементов, которые они содержат.
 
 ```scala 
-    scala> val fruit = Set("apple", "orange", "peach", "banana")
-    fruit: scala.collection.immutable.Set[java.lang.String] = Set(apple, orange, peach, banana)
-    scala> fruit("peach")
+    scala> val фрукты = Set("яблоки", "апельсины", "груши", "банан")
+    фрукты: scala.collection.immutable.Set[java.lang.String] = Set("яблоки", "апельсины", "груши", "банан")
+    scala> фрукты("груши")
     res0: Boolean = true
-    scala> fruit("potato")
+    scala> фрукты("кортошка")
     res1: Boolean = false
 ```
 
