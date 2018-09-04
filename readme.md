@@ -21,7 +21,7 @@
 
 * [Типаж Map](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Map.md)
 
-### 2. Конкретные реализации:
+### 2.1 Конкретные неизменяемые классы коллекций (Immutable Collection Classes):
 
 Scala предоставляет множество конкретных неизменяемых классов коллекций на выбор. Они отличаются типажами, которые они 
 реализуют (отображения, наборы, последовательности), конечностью и скоростью различных операций. Вот некоторые из наиболее 
@@ -36,6 +36,12 @@ Scala предоставляет множество конкретных неи�
 * [Стеки и очереди](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Stacks_and_Queues.md)
 
 * [Диапозоны (Ranges)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Ranges.md)
+
+* [Хэш-деревья, красно-черные деревья, бинарные множества, отображения-списки](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Other_immutables.md)
+
+### 2.2 Конкретные изменяемые классы коллекций (Mmutable Collection Classes):
+
+* [Массивы-Буфферы (Array Buffers)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_Array_Buffers.md)
 
 
 ### Характеристики коллеций скала:
