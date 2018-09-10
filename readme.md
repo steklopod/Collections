@@ -43,6 +43,8 @@ Scala предоставляет множество конкретных неи�
 
 * [Буфферы](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_Array_Buffers.md)
 
+* [Строковый сборщик (StringBuilder)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_StringBuilders.md)
+
 
 ### Характеристики коллеций скала:
 
