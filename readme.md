@@ -45,6 +45,8 @@ Scala предоставляет множество конкретных неи�
 
 * [Строковый сборщик (StringBuilder)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_StringBuilders.md)
 
+* [Списки (Linked Lists, Double Linked Lists, Mutable Lists)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_Lists.md)
+
 
 ### Характеристики коллеций скала:
 
