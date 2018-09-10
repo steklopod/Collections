@@ -84,6 +84,25 @@
 Вы также можете использовать обычные методы фильтрации Crfkf (drop, filter, take и т.д.) Для фильтрации элементов из коллекции; 
 просто не забудьте присвоить результат новой переменной.
 
+## Буфферы-Списки (List Buffers)
+
+[ListBuffer](http://www.scala-lang.org/api/2.12.2/scala/collection/mutable/ListBuffer.html) похож на массив-буфер, за 
+исключением того, что он использует связанный список внутри, а не массив. Если вы планируете преобразовать буфер в список 
+после его создания, используйте буфер списка вместо буфера массива.
+
+```scala
+    scala> val buf = scala.collection.mutable.ListBuffer.empty[Int]
+        buf: scala.collection.mutable.ListBuffer[Int] = ListBuffer()
+    
+    scala> buf += 1
+        res35: buf.type = ListBuffer(1)
+    
+    scala> buf += 10
+        res36: buf.type = ListBuffer(1, 10)
+    
+    scala> buf.toList
+        res37: List[Int] = List(1, 10)
+```
 
 _Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
 

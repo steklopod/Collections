@@ -41,7 +41,7 @@ Scala предоставляет множество конкретных неи�
 
 ### 2.2 Конкретные изменяемые классы коллекций (Mmutable Collection Classes):
 
-* [Массивы-Буфферы (Array Buffers)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_Array_Buffers.md)
+* [Буфферы](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_Array_Buffers.md)
 
 
 ### Характеристики коллеций скала:
