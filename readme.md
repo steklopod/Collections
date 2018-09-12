@@ -49,6 +49,8 @@ Scala предоставляет множество конкретных неи�
 
 * [Стэк (Stacks)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Stacks.md)
 
+* [Отображения (Weak Hash Maps, Concurrent Maps, Hash Tables)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable-Maps.md)
+
 
 ### Характеристики коллеций скала:
 
