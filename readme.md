@@ -47,6 +47,8 @@ Scala предоставляет множество конкретных неи�
 
 * [Списки (Linked Lists, Double Linked Lists, Mutable Lists)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_Lists.md)
 
+* [Стэк (Stacks)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Stacks.md)
+
 
 ### Характеристики коллеций скала:
 
