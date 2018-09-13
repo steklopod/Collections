@@ -51,6 +51,9 @@ Scala предоставляет множество конкретных неи�
 
 * [Отображения (Weak Hash Maps, Concurrent Maps, Hash Tables)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable-Maps.md)
 
+### 3 Массивы
+* [Массивы (Arrays)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Arrays.md)
+
 
 ### Характеристики коллеций скала:
 
