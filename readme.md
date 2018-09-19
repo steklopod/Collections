@@ -59,6 +59,11 @@ Scala предоставляет множество конкретных неи�
 
 * [Строки (Strings)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Strings.md)
 
+### 5 Характеристики производительности (perfomance)
+
+* [Характеристики производительности коллекций](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/performance_characteristics.md)
+
+
 
 ### Характеристики коллеций скала:
 
