@@ -5,8 +5,6 @@
 
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/collections.png "collections")
 
-## Содержание:
-
 ### 1. Типажи коллекций:
 
 * [Мутабельные и неизменяемые коллекции](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/mutable_immutable.md)
@@ -21,7 +19,7 @@
 
 * [Типаж Map](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Map.md)
 
-### 2.1 Конкретные неизменяемые классы коллекций (Immutable Collection Classes):
+### 2.1 - Конкретные неизменяемые классы коллекций (Immutable Collection Classes):
 
 Scala предоставляет множество конкретных неизменяемых классов коллекций на выбор. Они отличаются типажами, которые они 
 реализуют (отображения, наборы, последовательности), конечностью и скоростью различных операций. Вот некоторые из наиболее 
@@ -39,7 +37,7 @@ Scala предоставляет множество конкретных неи�
 
 * [Хэш-деревья, красно-черные деревья, бинарные множества, отображения-списки](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Other_immutables.md)
 
-### 2.2 Конкретные изменяемые классы коллекций (Mmutable Collection Classes):
+### 2.2 - Конкретные изменяемые классы коллекций (Mmutable Collection Classes):
 
 * [Буфферы](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable_Array_Buffers.md)
 
@@ -51,21 +49,13 @@ Scala предоставляет множество конкретных неи�
 
 * [Отображения (Weak Hash Maps, Concurrent Maps, Hash Tables)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Concrete-Mutable-Maps.md)
 
-### 3 Массивы
+### [3 - Массивы(Arrays)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Arrays.md)
 
-* [Массивы (Arrays)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Arrays.md)
+### [4 - Строки (Strings)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Strings.md)
 
-### 4 Строки
+### [5 - Характеристики производительности коллекций](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/performance_characteristics.md)
 
-* [Строки (Strings)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/Strings.md)
-
-### 5 Характеристики производительности (perfomance)
-
-* [Производительность коллекций](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/performance_characteristics.md)
-
-### 6 Равенство
-
-* [Эквивалентность (Equality)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/equality.md)
+### [6 - Равенство (Equality)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/equality.md)
 
 
 ### Характеристики коллеций скала:
