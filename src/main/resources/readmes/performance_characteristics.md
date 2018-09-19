@@ -27,9 +27,13 @@ REPL следующим образом:
 
 Таблица показывает характеристики производительности для операций с неизменяемыми и изменяемыми **последовательными** коллекциями.
 
-> Характеристики производительности для последовательных коллекций
+> Характеристики производительности для последовательных коллекций:
 
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/seq_perfomance.png "Performance of seq")
+
+> Тип операций над последовательностями (Sequence operations):
+
+![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/perfomance_descr.png "Perfomance description")
 
 
 
