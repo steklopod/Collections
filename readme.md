@@ -63,6 +63,10 @@ Scala предоставляет множество конкретных неи�
 
 * [Производительность коллекций](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/performance_characteristics.md)
 
+### 6 Равенство
+
+* [Эквивалентность (Equality)](https://github.com/steklopod/Collections/blob/master/src/main/resources/readmes/equality.md)
+
 
 ### Характеристики коллеций скала:
 
