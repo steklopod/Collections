@@ -35,7 +35,11 @@ REPL следующим образом:
 
 ![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/perfomance_descr.png "Perfomance description")
 
+### Отображения и характеристики производительности
 
+> Характеристики производительности для отображений и наборов (maps and sets):
+
+![alt text](https://github.com/steklopod/Collections/blob/master/src/main/resources/images/map_operations_perfomance.png "The performance characteristics for maps and sets")
 
 
 _Если этот проект окажется полезным тебе - нажми на кнопочку **`★`** в правом верхнем углу._
